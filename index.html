@@ -4,91 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Portafolio de Paolo Abarca</title>
+    <link rel="icon" type="image/jgp" href="./assets/icono.jpg">
 </head>
 <body>
     <!-- HEADER -->
     <header>
         <div class="header-wrapper">
             <div class="logo">
-                <img src="./assets/tu-logo.png" alt="Logo de Paolo Abarca">
+                    <a href="https://drive.google.com/file/d/1ugmUL89OsSz2XjsyCCjwJJ8LVLf3n_cw/view" download target="_blank">
+                            <img src="./assets/cv.png" alt="Descargar CV" class="download-icon" />
+                            <span>Descarga mi CV</span>
+                    </a>
             </div>
             <nav>
-                <a href="#contact">
-                    <button>Contáctame</button>
-                </a>
+                <a href="#hero" class="nav-link">INICIO</a>
+                <a href="#about" class="nav-link">SOBRE MI</a>
+                <a href="#skills" class="nav-link">HABILIDADES</a>
+                <a href="#projects" class="nav-link">PROYECTOS</a>
+                <a href="#contact" class="nav-link">CONTÁCTAME</a>
             </nav>
         </div>
     </header>
 
     <!-- HERO -->
-    <div class="hero">
-        <div>
-            <img class="profile-img" src="./assets/icono.jpg" alt="Foto de perfil de Paolo Abarca">
-        </div>
-        <h1>Paolo Abarca</h1>
-        <p>Desarrollador de Software Full Stack</p>
+    <div id="hero" class="hero">
+            <div class="matrix-overlay"></div>
+            <div class="hero-text">
+                    <h1 class="hero-title">PORTAFOLIO</h1>
+                    <h2 class="hero-name">Paolo Abarca</h2>
+                    <p class="hero-role">Desarrollador de Software Full Stack</p>
+            </div>
+            <div class="mask">
+                    <img src="./assets/mask.png" alt="Zenkaizer">
+            </div>
     </div>
 
     <!-- ABOUT -->
-    <div class="about">
+    <div id="about" class="about">
         <div class="about-wrapper">
-            <div class="col">
                 <h2>Sobre Mi</h2>
-                <p>Soy un Desarrollador Web Full Stack con inclinación al lado del Back-End. Disfruto crear proyectos de alto impacto. Me destaco por abordar desafíos complejos y ofrecer soluciones. Mi compromiso con el aprendizaje continuo me impulsa a mantenerme actualizado con las últimas tendencias tecnológicas, aplicándolas en mis proyectos.</p>
-            </div>
+                <div class="about-content">
+                        <div class="about-image">
+                                <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2021/12/back-end-developer-1024x512.png" alt="Backend image">
+                                <img src="https://plopdo.com/wp-content/uploads/2021/10/What-is-back-end-development-2.jpg">
+                        </div>
+                        <div class="about-text">
+                                <p>¡Hola! Soy Paolo Abarca, un desarrollador de software Junior especializado en Back-End apasionado con la tecnología.</p>
+                                <br>
+                                <p>Me considero un profesional capaz de abordar desafíos complejos y entregar soluciones. Estoy dedicado a seguir aprendiendo y perfeccionando mis conocimientos, manteniéndome actualizado con las últimas tendencias tecnológicas y aplicándolas en mis proyectos. Estoy entusiasmado por colaborar en equipos dinámicos y contribuir a proyectos innovadores.</p>
+                                <br>
+                                <p>Si buscas un desarrollador con habilidades técnicas sólidas y una mentalidad orientada a la resolución de problemas, no dudes en conectarte conmigo a través de mi correo y teléfono.</p>
+                        </div>
+                </div>
         </div>
     </div>
 
     <!-- SKILLS -->
-    <div class="skills">
-        <div class="skills-wrapper">
-            <h2>Mis Habilidades Técnicas</h2>
-            <ul>
-                <li>Python</li>
-                <li>MySQL</li>
-                <li>Flask</li>
-                <li>Restfull API</li>
-                <li>Git & Github</li>
-                <li>Linux</li>
-                <li>C</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ul>
-        </div>
-    </div>
+    <section id="skills" class="skills">
+            <div class="skills-wrapper">
+                    <h2>Habilidades Técnicas</h2>
+                    <div class="skills-grid">
+                            <div class="skill-category-group">
+                                    <div class="skill-category">
+                                            <h3>Lenguajes de Programación</h3>
+                                            <ul>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
+                                                                    <h3>Python</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"/>
+                                                                    <h3>C</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+                                                                    <h3>JavaScript</h3>
+                                                            </div>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                            </div>
+                            <div class="skill-category-group">
+                                    <div class="skill-category">
+                                            <h3>Tecnologías</h3>
+                                            <ul>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"/>
+                                                                    <h3>MySQL</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"/>
+                                                                    <h3>Linux</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD8UlEQVR4nO2aS0gVYRTHp5RIe7lwp+jSRS56UVGZQbUoCQQra1tarXpYEXTJjVgg5KrbplzoQqF2PTdhLyopiLZW0Dssey2ygtBfnDxDX8Odb2aud27Dpf/m3rnf/5zvnPs9zvnON47zHwUO4CDwBX9I2wEnyQAqgXGCIZxKJ6kAmtXQyxbOFeVsdZIKoEuN7LBwOpTT5SQJwCygFbhhTKtGC7/RmF4i0wKU5tdqA0AJcAR4b8x9+X4GKLfIlStn1JB7BxwWnU4+AawBnqgRE8AFYC1QFEFHEbBOZUWH4DFQH4fB84Bl7tAD04B2o2OZGgty0M8C4KbxxxyTvrStFFgOlGWrvMYY/q9AP3Ben78De4HpU3XC6G86sE91o331a9+CT0BtNooHVcFrYwRchaty5UCGfuu0DxcTaoPgjjtSYZU1GYtQplcV0AZcA+bH5YQL6UP/yENAtdogtgi2O2EAzASeqdBOJyFgcpsWvJItP4yALDTBw1yugRytoftqW3sQuUIXl8zL1U7CAKxQ277JdLcR0+rxgJNQAANq4yknREJ3MtLukCcwGcfENsElG3Ej8FOJPUBxgOJNwAeRC9jCTbwBTgAzDOMeGe23fXQVq02ojRuCvG4wglBfAPeyLW3HjuPGIpaNxcUtH1192i62NVidMITa3FGxcGYbUVg+Z/s5kmHB/h6ZIK4JYzTanLAATqtQq4Wz2fMPN2XgZDTOx8EgR3YrJR3FkXsqtNjC6VXOW/3sjdmRJUq5G8WRlypUYUnB3YRym35+9G4OOXakUikvojgypkIZDzpyZtD2p/r8VJ/rQxi8Un9+HdGREqWM5dKRbm3vzvTsNc4Hnflw5IUKZSzZeEfAO0IBjkhK3unGkSym1vOcLHZNsW2YH9a4fCz2tArtytCWCnDkaEyO7AnMsaIERGBI25p9inNDMTnSEykgBqUoRu1qruf3ufr7eBRHIuRafaFTlDBJo3RkyYf+arNxDU7YXKs4dNJYSGl8ulAOVhXG+kjyUXfMetRVslQS0XkbugQaN5hcSw/UtlQYAUkFnqtAi5MQMFnxR7OOcNV7KYJ5CnTVWiwbzGOB7prGsypPga4p6u4g5Um/kmldjE7UW0qmg9korNUzhhuEpKB8zjja7ouhiN0G/NA+znmK2DIiNdkqLwOWeq4VUkZ0l6uAhTlwYpEGT1R3ynOtIDbMmWo/fhXzYWPoL+qlTZSLHonU6yWwGVN3OM5Kv213kw1ghD8YDXn1dtZz9Tai9/MleXXCY5gM/U7gehaXoSKz459ehhbc9bQJeQlAjbxi4VxVzhYnqaBQXuEQyAszwGeLE9K2/zf5PwoYvwD2T1VxGDuKWwAAAABJRU5ErkJggg=="/>
+                                                                    <h3>API Rest</h3>
+                                                            </div>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                            </div>
+                            <div class="skill-category-group">
+                                    <div class="skill-category">
+                                            <h3>Frameworks</h3>
+                                            <ul>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" style="filter: invert(1);"/>
+                                                                    <h3>Flask</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" style="filter: invert(1);"/>
+                                                                    <h3>Github</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" style="filter: invert(1);"/>
+                                                                    <h3>Django</h3>
+                                                            </div>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                            </div>
+                            <div class="skill-category-group">
+                                    <div class="skill-category">
+                                            <h3>Web Development</h3>
+                                            <ul>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"/>
+                                                                    <h3>Html</h3>
+                                                            </div>
+                                                    </li>
+                                                    <li>
+                                                            <div class="skill-card">
+                                                                    <h1>-</h1>
+                                                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"/>
+                                                                    <h3>Css</h3>
+                                                            </div>
+                                                    </li>
+                                            </ul>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+    </section>
 
     <!-- PROJECTS -->
-    <div class="projects">
+    <div id="projects" class="projects">
         <div class="project-wrapper">
             <h2>Mis Proyectos</h2>
             <ul>
                 <li>
-                    <a href="#">
-                        <img src="./assets/projects/1.png" alt="Proyecto 1">
-                        <p>Project #1</p>
-                    </a>
+                    <img src="https://brandemia.org/sites/default/files/sites/default/files/bnb_billboard_01-2000x1125.jpg" alt="Proyecto 1">
+                    <p>● Construí un proyecto que abarca la construcción de un clon del sitio web AirBnB, desde el diseño hasta el desarrollo y posterior despliegue a la web.</p><br>
+                    <p>● Tecnologías: Python, MySQL, Flask, HTML, CSS, JS.</p><br>
+                    <button>
+                        <a href="https://github.com/paolo-abarca/holbertonschool-AirBnB_clone_v4" target="_blank">Ver Código</a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./assets/projects/2.png" alt="Proyecto 2">
-                        <p>Project #2</p>
-                    </a>
+                    <img src="https://miro.medium.com/v2/resize:fit:1052/1*P1FKnYJTJxW87fe71611dg.png" alt="Proyecto 2">
+                    <p>● Desarrollé un Shell UNIX con múltiples comandos que funcionan en modo interactivo y no interactivo en C.</p><br>
+                    <p>● Tecnologías: C, Shell</p><br>
+                    <button>
+                        <a href="https://github.com/paolo-abarca/simple_shell" target="_blank">Ver Código</a>
+                    </button>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./assets/projects/3.png" alt="Proyecto 3">
-                        <p>Project #3</p>
-                    </a>
+                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1669568174223/gJoaXPx9k.jpg" alt="Proyecto 3">
+                    <p>● Desarrollé una implementación personalizada de la función “printf” integrada en el lenguaje de programación C.</p><br>
+                    <p>● Tecnologías: C</p><br>
+                    <button>
+                        <a href="https://github.com/paolo-abarca/printf" target="_blank">Ver Código</a>
+                    </button>
                 </li>
             </ul>
         </div>
     </div>
 
     <!-- SOCIALS -->
-    <div class="socials" id="contact">
+    <div id="contact" class="socials">
         <div class="socials-wrapper">
             <div>
                 <h2>Contáctame</h2>
@@ -101,5 +224,44 @@
             </div>
         </div>
     </div>
+    <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                    const matrixOverlay = document.querySelector('.matrix-overlay');
+                    const columns =50; // Number of columns
+                    const rows = 25; // Number of characters
+                    const symbols = '01';
+
+                    for (let i = 0; i < columns; i++) {
+                            const column = document.createElement('div');
+                            column.classList.add('matrix-column');
+                            column.style.left = `${(i / columns) * 100}vw`;
+                            column.style.animationDuration = `${Math.random() * 2 + 3}s`; // Random speed
+                            matrixOverlay.appendChild(column);
+
+                            let content = '';
+                            for (let j = 0; j < rows; j++) {
+                                    content += symbols[Math.floor(Math.random() * symbols.length)] + '<br>';
+                            }
+                            column.innerHTML = content;
+                    }
+            });
+    </script>
 </body>
+<script>
+  // Ajuste para compensar el header fijo al hacer clic en enlaces del header
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const target = document.querySelector(this.getAttribute('href'));
+      const headerHeight = document.querySelector('header').offsetHeight;
+      const offset = target.offsetTop - headerHeight - 20;
+
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
 </html>
