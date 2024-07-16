@@ -164,6 +164,7 @@ h2 {
 /* ABOUT */
 .about-wrapper,
 .project-wrapper,
+.experience-wrapper,
 .socials-wrapper {
   max-width: 1000px;
   margin: 100px auto;
@@ -198,6 +199,57 @@ h2 {
   opacity: 0.6;
   font-size: 1.1rem;
   line-height: 1.8;
+}
+
+/* EXPERIENCE */
+.experience ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.experience li {
+  background: #181f26;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 5px solid #1a53ff;
+}
+
+.experience li img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 3px solid #1a53ff
+}
+
+.experience p {
+  margin-top: 15px;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.experience button {
+  margin-top: 15px;
+}
+
+.experience button a {
+  color: #fff;
+}
+
+button {
+  background: #1a53ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #1646d2;
 }
 
 /* SKILLS */
@@ -281,7 +333,7 @@ h2 {
 .projects li img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px;
   border: 3px solid #1a53ff
 }
